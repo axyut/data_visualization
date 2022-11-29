@@ -1,10 +1,10 @@
 import React from "react";
-import FaceGuy from "./components/FaceGuy";
+import Emoji from "./components/Emoji";
 
 function App() {
 	return (
 		<div className="App">
-			<FaceGuy />
+			<Emoji />
 		</div>
 	);
 }
