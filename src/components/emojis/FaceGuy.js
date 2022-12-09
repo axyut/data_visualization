@@ -1,8 +1,8 @@
 import React from "react";
 import { arc } from "d3";
 
-function FaceGuy() {
-	let scale = 3;
+function FaceGuy({ scale }) {
+	//let scale = scale;
 
 	const width = scale * 100;
 	const height = width / 2;
@@ -27,6 +27,7 @@ function FaceGuy() {
 
 	const OuterFace = () => (
 		<circle
+			name="appearingCircle"
 			r={radius}
 			fill="yellow"
 			stroke="black"
@@ -59,6 +60,7 @@ function FaceGuy() {
 
 		return <path d={mouth()}></path>;
 	};
+
 	return (
 		<>
 			<Container>
