@@ -2,13 +2,14 @@ import React from "react";
 //import Emoji from "./components/Emoji";
 //import MouseMove from "./components/MouseMove";
 //import VegaLite from "./components/VegaLite";
-//import D3mdncss from "./components/D3mdncss";
-import Chatgpt from "./components/Chatgpt";
+//import PieArc from "./components/pieArc";
+//import Chatgpt from "./components/Chatgpt";
+import BarChart from "./components/BarChart/BarChart";
 
 function App() {
 	return (
 		<div className="App">
-			<Chatgpt />
+			<BarChart />
 		</div>
 	);
 }

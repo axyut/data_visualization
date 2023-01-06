@@ -13,7 +13,7 @@ const centerYaxis = height / 2;
 
 const pieArc = arc().innerRadius(0).outerRadius(width);
 
-const D3mdncss = () => {
+const PieArc = () => {
 	const [data, setData] = useState(null);
 
 	useEffect(() => {
@@ -36,7 +36,7 @@ const D3mdncss = () => {
 	);
 };
 
-export default D3mdncss;
+export default PieArc;
 
 // To compute the arcs manually (without d3.pie):
 // data.map((d, i) => (
